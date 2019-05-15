@@ -1,0 +1,10 @@
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\bin\Debug\GenerateUI.exe.config
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\bin\Debug\GenerateUI.exe
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\bin\Debug\GenerateUI.pdb
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.csprojAssemblyReference.cache
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.Properties.Resources.resources
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.csproj.GenerateResource.cache
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.csproj.CoreCompileInputs.cache
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.exe
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.pdb
+C:\Users\Shamim\source\repos\GenerateUI\GenerateUI\obj\Debug\GenerateUI.frmUIGeneratorApp.resources
