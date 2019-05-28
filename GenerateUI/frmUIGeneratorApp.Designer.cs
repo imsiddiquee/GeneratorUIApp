@@ -39,6 +39,7 @@
             this.btnGenerate = new System.Windows.Forms.Button();
             this.ModelDataType = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.ModelPropertyName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DisplayLabel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UIType = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.DdlDisplayText = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DdlDisplayValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -99,6 +100,7 @@
             this.txtModelName.Name = "txtModelName";
             this.txtModelName.Size = new System.Drawing.Size(350, 20);
             this.txtModelName.TabIndex = 3;
+            this.txtModelName.Text = "BaseControl";
             // 
             // label2
             // 
@@ -115,6 +117,7 @@
             this.txtFilePath.Name = "txtFilePath";
             this.txtFilePath.Size = new System.Drawing.Size(350, 20);
             this.txtFilePath.TabIndex = 1;
+            this.txtFilePath.Text = "F:\\Demo";
             // 
             // label1
             // 
@@ -131,6 +134,7 @@
             this.dgvUIModel.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ModelDataType,
             this.ModelPropertyName,
+            this.DisplayLabel,
             this.UIType,
             this.DdlDisplayText,
             this.DdlDisplayValue});
@@ -163,43 +167,56 @@
             // 
             // ModelDataType
             // 
+            this.ModelDataType.DataPropertyName = "ModelDataType";
             this.ModelDataType.HeaderText = "ModelDataType";
             this.ModelDataType.Items.AddRange(new object[] {
             "string",
-            "int",
-            "bool"});
+            "number",
+            "boolean",
+            "Date"});
             this.ModelDataType.Name = "ModelDataType";
             this.ModelDataType.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ModelDataType.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ModelDataType.Width = 150;
+            this.ModelDataType.Width = 120;
             // 
             // ModelPropertyName
             // 
+            this.ModelPropertyName.DataPropertyName = "ModelPropertyName";
             this.ModelPropertyName.HeaderText = "ModelPropertyName";
             this.ModelPropertyName.Name = "ModelPropertyName";
-            this.ModelPropertyName.Width = 200;
+            this.ModelPropertyName.Width = 150;
+            // 
+            // DisplayLabel
+            // 
+            this.DisplayLabel.DataPropertyName = "DisplayLabel";
+            this.DisplayLabel.HeaderText = "DisplayLabel";
+            this.DisplayLabel.Name = "DisplayLabel";
             // 
             // UIType
             // 
+            this.UIType.DataPropertyName = "UIType";
             this.UIType.HeaderText = "UIType";
             this.UIType.Items.AddRange(new object[] {
-            "TextBox",
-            "Password",
-            "NumberField",
-            "Checkbox",
-            "Radio",
-            "Select-ddl"});
+            "text",
+            "password",
+            "number",
+            "checkbox",
+            "radio",
+            "dropdown",
+            "date"});
             this.UIType.Name = "UIType";
             this.UIType.Width = 200;
             // 
             // DdlDisplayText
             // 
+            this.DdlDisplayText.DataPropertyName = "DdlDisplayText";
             this.DdlDisplayText.HeaderText = "DdlDisplayText";
             this.DdlDisplayText.Name = "DdlDisplayText";
             this.DdlDisplayText.Width = 150;
             // 
             // DdlDisplayValue
             // 
+            this.DdlDisplayValue.DataPropertyName = "DdlDisplayValue";
             this.DdlDisplayValue.HeaderText = "DdlDisplayValue";
             this.DdlDisplayValue.Name = "DdlDisplayValue";
             this.DdlDisplayValue.Width = 150;
@@ -239,6 +256,7 @@
         private System.Windows.Forms.Button btnGenerate;
         private System.Windows.Forms.DataGridViewComboBoxColumn ModelDataType;
         private System.Windows.Forms.DataGridViewTextBoxColumn ModelPropertyName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DisplayLabel;
         private System.Windows.Forms.DataGridViewComboBoxColumn UIType;
         private System.Windows.Forms.DataGridViewTextBoxColumn DdlDisplayText;
         private System.Windows.Forms.DataGridViewTextBoxColumn DdlDisplayValue;
